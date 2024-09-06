@@ -1,0 +1,66 @@
+.game {
+    margin: 20px auto;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .round {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .guess-input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .guess-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .guess-button:disabled {
+    background-color: #9E9E9E;
+    cursor: not-allowed;
+  }
+  
+  .guess-button:hover:enabled {
+    background-color: #45a049;
+  }
+  
+  .message {
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+  
+  .attempts {
+    margin-top: 10px;
+    font-size: 1em;
+  }
+  
+  .reset-button, .quit-button {
+    margin: 10px;
+    width: 40%;
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .reset-button:hover, .quit-button:hover {
+    background-color: #d32f2f;
+  }
+  
